@@ -15,11 +15,11 @@ class Board():
         self.turn = 'o' if self.turn == 'x' else 'x'
 
     def interact(self):
-        i = 0
+        i = 1
         while i < 2:
             self.display()
             self.prompt()
-
+            i += 1
 
 
 def main():
